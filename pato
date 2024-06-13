@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Personal de [Tu Nombre]</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: cyan;
+      color: white;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    .container {
+      text-align: center;
+    }
+    
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+    
+    #duck {
+      width: 200px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Bienvenido a mi Página Personal</h1>
+    <p>Hola, soy [Tu Nombre], y esta es mi página web personal. Me encanta el color cyan y adopté a un pato que encontré.</p>
+    <p>Mientras lees esto, ¡puedes jugar un divertido juego haciendo clic en el pato!</p>
+    <img id="duck" src="https://via.placeholder.com/200" alt="Pato" onclick="alert('¡Cuack! ¡Gracias por jugar conmigo!')">
+  </div>
+</body>
+</html>
